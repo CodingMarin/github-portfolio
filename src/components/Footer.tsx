@@ -15,15 +15,6 @@ export default function Footer() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary"
-              aria-label="GitHub"
-            >
-              a
-            </a>
             <GitHubButton
               href="https://github.com/CodingMarin/github-portfolio"
               data-color-scheme="no-preference: dark_high_contrast; light: dark_dimmed; dark: light;"
