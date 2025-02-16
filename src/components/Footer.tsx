@@ -25,7 +25,7 @@ export default function Footer() {
               a
             </a>
             <GitHubButton
-              href="https://github.com/CodingMarin/consulta-ruc-dni-sunat/generate"
+              href="https://github.com/CodingMarin/github-portfolio"
               data-color-scheme="no-preference: dark_high_contrast; light: dark_dimmed; dark: light;"
               data-size="large"
               aria-label="Use this template CodingMarin/consulta-ruc-dni-sunat on GitHub"
