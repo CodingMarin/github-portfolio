@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+
+@theme {
+    --font-display: 'DM Sans', serif;
+
+    --color-primary: rgba(246, 240, 252, 1);
+    --color-secondary: rgba(145, 152, 161, 1);
+    --color-github: rgba(13, 17, 23, 1);
+    --color-metal: rgba(33, 38, 45, 1);
+    --color-badge: rgba(33, 38, 45, 1);
+}
+
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+      border-color: var(--color-gray-200, currentColor);
+    }
+    button:not(:disabled),
+    [role="button"]:not(:disabled) {
+        cursor: pointer;
+    }
+}
