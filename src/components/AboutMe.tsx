@@ -12,7 +12,7 @@ export default function AboutMe() {
           </div>
           <div className="inline-flex gap-2">
             <GitHubButton
-              href="https://github.com/CodingMarin/consulta-ruc-dni-sunat"
+              href="https://github.com/CodingMarin/github-portfolio"
               data-color-scheme="no-preference: dark_high_contrast; light: dark_dimmed; dark: light;"
               data-size="large"
               data-show-count="true"
