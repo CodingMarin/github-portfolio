@@ -10,7 +10,7 @@ export default function Badge({ ...props }: Props) {
   return (
     <div className={cn("flex flex-wrap gap-2", props.className)}>
       <div
-        className="inline-flex items-center active:animate-spin duration-75 hover:animate-pulse hover:bg-green-400/10 transition-colors cursor-pointer select-none gap-2 px-2 py-1 border border-green-400/20 rounded-full bg-badge text-primary/75"
+        className="inline-flex items-center active:animate-spin duration-75 hover:animate-pulse dark:hover:bg-green-400/10 transition-colors cursor-pointer select-none gap-2 px-2 py-1 border dark:border-green-400/20 border-blue-500 rounded-full dark:bg-badge bg-blue-400 dark:text-primary/75"
         role="button"
         aria-label={props.text}
       >

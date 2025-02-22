@@ -4,9 +4,12 @@ import { RouterProvider } from "react-router-dom";
 import Routes from "@/Routes";
 
 import "@/styles.css";
+import { ThemeProvider } from "./context/themeContext";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <RouterProvider router={Routes} />
+    <ThemeProvider>
+      <RouterProvider router={Routes} />
+    </ThemeProvider>
   </StrictMode>
 );

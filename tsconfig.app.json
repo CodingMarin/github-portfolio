@@ -12,6 +12,7 @@
       "@components/*": ["src/components/*"],
       "@layouts/*": ["src/layouts/*"],
       "@utils/*": ["src/utils/*"],
+      "@ui/*": ["src/components/ui/*"]
     },
 
     /* Bundler mode */

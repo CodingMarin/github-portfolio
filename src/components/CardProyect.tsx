@@ -8,7 +8,7 @@ interface Props {
 
 export default function CardProyect({ ...props }: Props) {
   return (
-    <div className="rounded-xl shadow border border-metal">
+    <div className="rounded-xl dark:shadow border dark:border-metal">
       <div className="space-y-2">
         <div className="w-full h-40 flex items-center justify-center overflow-hidden rounded-t-xl">
           <picture className="w-full h-full">
@@ -23,11 +23,11 @@ export default function CardProyect({ ...props }: Props) {
           <a
             href={props.url}
             target="_blank"
-            className="font-medium select-none text-sm text-primary hover:text-blue-400 transition-colors"
+            className="font-medium select-none text-sm dark:text-primary text-black hover:text-blue-400 transition-colors"
           >
             {props.title}
           </a>
-          <p className="text-sm text-secondary line-clamp-2">
+          <p className="text-sm dark:text-secondary text-gray-500 line-clamp-2">
             {props.subtitle}
           </p>
           <div className="flex gap-2 items-center">
