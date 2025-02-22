@@ -2,13 +2,13 @@ import GitHubButton from "react-github-btn";
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-metal bg-github">
+    <footer className="w-full border-t dark:border-metal dark:bg-github">
       <div className="mx-auto w-full max-w-7xl px-4 py-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <nav className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-primary">
             <a
               href="#"
-              className="hover:text-secondary transition-colors hover:underline"
+              className="dark:text-secondary text-black transition-colors hover:underline"
             >
               © 2025 Alexander Marin
             </a>

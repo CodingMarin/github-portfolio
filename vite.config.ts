@@ -11,6 +11,7 @@ export default defineConfig({
       "@components": resolve(__dirname, "src/components"),
       "@layouts": resolve(__dirname, "src/layouts"),
       "@utils": resolve(__dirname, "src/utils"),
+      "@ui": resolve(__dirname, "src/components/ui"),
     },
   },
   server: {
