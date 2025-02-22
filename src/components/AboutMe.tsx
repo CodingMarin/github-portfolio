@@ -4,7 +4,7 @@ import GitHubButton from "react-github-btn";
 
 export default function AboutMe() {
   return (
-    <div className="rounded-xl border border-metal">
+    <div className="rounded-xl border dark:border-metal">
       <div className="p-6 space-y-6">
         <div className="lg:flex block space-y-2 lg:space-y-0 items-center justify-between">
           <div className="flex items-center gap-2 text-sm text-gray-400">
@@ -32,17 +32,17 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="space-y-4">
-          <h2 className="text-2xl text-primary font-bold animate-fade-right animate-duration-600">
+          <h2 className="text-2xl dark:text-primary text-black font-bold animate-fade-right animate-duration-600">
             Hi 👋, I'm <span className="underline">Alexander Marin</span>
           </h2>
-          <p className="text-secondary text-sm animate-fade-right animate-duration-700">
+          <p className="dark:text-secondary text-gray-500 text-sm animate-fade-right animate-duration-700">
             👋 It's a pleasure to find you on my profile! Remember to leave your
             little ⭐ so you're encouraged to contribute to the entire GitHub
             community. 🚀
           </p>
 
           <div className="space-y-2 space-x-1">
-            <h3 className="text-sm text-primary font-medium animate-fade animate-duration-600">
+            <h3 className="text-sm dark:text-primary text-black font-medium animate-fade animate-duration-600">
               Languages and Tools:
             </h3>
             {skills.map((skill, i) => (
