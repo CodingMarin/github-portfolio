@@ -2,6 +2,13 @@ import { Projects } from "@/types";
 
 const projects: Projects[] = [
   {
+    thumbnail: "https://imgur.com/hFbIohL.png",
+    title: "Tecnirod",
+    url: "",
+    subtitle: "Industrial design maked in figma",
+    category: "Figma",
+  },
+  {
     thumbnail: "https://imgur.com/7aIoxZc.png",
     title: "Radar System",
     url: "https://gist.github.com/CodingMarin/c579e7db0c5094235a7a9b78e272dc02",
