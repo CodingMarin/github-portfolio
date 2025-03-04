@@ -31,7 +31,7 @@ export default function BottomNavigation() {
           </Link>
           <Link
             to={{
-              pathname: "/tutorials",
+              pathname: "/courses",
               search: "?q=all",
             }}
             role="link"
