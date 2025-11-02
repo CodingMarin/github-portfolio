@@ -17,11 +17,11 @@ const projects: Projects[] = [
     category: "C++",
   },
   {
-    thumbnail: "https://imgur.com/7aIoxZc.png",
-    title: "GOT-API",
-    url: "https://got-api.vercel.app/",
-    subtitle: "Game of Thrones REST API: Conquer the Kingdom of Data",
-    category: "Next Js",
+    thumbnail: "/vgunz.png",
+    title: "Vengeance Gunz",
+    url: "https://github.com/CodingMarin/Vengeance-Gunz",
+    subtitle: "Webside for the private server Vengeance Gunz",
+    category: "Laravel",
   },
   {
     thumbnail: "https://imgur.com/X7CSQ1z.png",
